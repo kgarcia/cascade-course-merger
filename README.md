@@ -1,6 +1,6 @@
 # Cascade Course Merger
 
-Merge [Cascade LMS](https://www.hannon-hill.com/cascade-cms/) course export `.zip` files into a single combined HTML per module — with all images and assets extracted so everything renders correctly in a browser.
+Merge [Cascade LMS](https://www.hannonhill.com/products/cascade-cms-web-content-management/index.html) course export `.zip` files into a single combined HTML per module — with all images and assets extracted so everything renders correctly in a browser.
 
 Cross-platform GUI (tkinter) and CLI. No dependencies beyond Python 3.
 
