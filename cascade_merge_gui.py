@@ -15,10 +15,20 @@ import queue
 import subprocess
 import sys
 import threading
-import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
 import webbrowser
 import zipfile
+
+try:
+    import tkinter as tk
+    from tkinter import filedialog, messagebox, ttk
+except ImportError:
+    sys.exit(
+        "tkinter is not available with this Python installation.\n\n"
+        "  macOS (Homebrew):  brew install python-tk\n"
+        "  Ubuntu / Debian:   sudo apt install python3-tk\n"
+        "  Windows:           reinstall Python from python.org\n"
+        "                     and check 'tcl/tk' during install.\n"
+    )
 
 from cascade_merge import merge_from_zip, peek_module_name
 
